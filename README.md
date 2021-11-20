@@ -12,3 +12,7 @@ cd to server and run `node server` and launch your browser (chrome)
 We can't include the original map files from GTA2. So find them yourself... You will need the file 
 - MP1-comp.gmp *(its the map)*
 - bil.sty *(i'ts the style)* 
+
+## Runing in Docker
+`docker build -t gta2 .`
+`docker run -p 8000:8000 -p 8081:8081 gta2`
