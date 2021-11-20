@@ -29,8 +29,8 @@
 		SERVER_SETTING: 
 		{
 			
-			SOCKET_DOMAIN	: typeof window !== "undefined"? window.location.hostname + ":81/server/server.js" : "", // This settings is used by the client to connect to the server
-			SOCKET_PORT		: 81,
+			SOCKET_DOMAIN	: typeof window !== "undefined"? window.location.hostname + ":8081/server/server.js" : "", // This settings is used by the client to connect to the server
+			SOCKET_PORT		: 8081,
 
 		
 		},
